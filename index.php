@@ -88,6 +88,7 @@ $jlSolution4 = get_field ("jl_soluttion_4");
 <?php echo $name; ?>
     </div>
     <div class="title">
+        HELLO WORLD
     Multimedia Designer based in Denmark
     </div>
 <div class="row link-buttons">
