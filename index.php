@@ -271,7 +271,7 @@ data-bs-slide="next"
 
    </div>
     <div class="col-6">
- <p> <strong>METHODOLOGY:</strong> <span class="methodology">F<?php echo $trMethodology ?></span> </p>
+ <p> <strong>METHODOLOGY:</strong> <span class="methodology"><?php echo $trMethodology ?></span> </p>
 
             <p> <strong>METHODS:</strong> <span class="methods"> <?php echo $trMethods ?> </span> </p>
 
@@ -449,7 +449,9 @@ data-bs-slide="next"
     <div class="col-6">
     <div>
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"><?php echo $jlSolution1 ?> </p>
+<p class="inline-text">Designed a swipe-based app interface for quick job browsing and application.
+[17:30]
+ </p>
 </div> 
 <div>
 <i class="fa-solid fa-chevron-right"></i>
@@ -459,11 +461,11 @@ data-bs-slide="next"
 <div class="col-6">
      <div>
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"> <?php echo $jlSolution3 ?> </p>
+<p class="inline-text"> Developed features to cater to student users' needs, such as portfolios and project announcements, for a personalized experience. </p>
 </div>
    <div>
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"> <?php echo $jlSolution4 ?> </p>
+<p class="inline-text"> Integrated a career counseling feature, providing personalized guidance and support for young professionals. </p>
 </div>
 
 </div>
