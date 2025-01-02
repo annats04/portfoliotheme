@@ -453,7 +453,7 @@ data-bs-slide="next"
 </div> 
 <div>
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"><?php echo $jlSolution2 ?> </p>
+<p class="inline-text">Infused the copywriting with a slightly gritty marketing tone, adding a cool vibe to the overall experience, making it unique and memorable. </p>
 </div>
 </div>
 <div class="col-6">
