@@ -147,7 +147,7 @@ $jlSolution4 = get_field ("jl_soluttion_4");
             </div>
         </div>
     </div>
-<hr>
+
 </div>
 
 
