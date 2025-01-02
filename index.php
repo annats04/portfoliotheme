@@ -159,10 +159,10 @@ $jlSolution4 = get_field ("jl_soluttion_4");
 
 <!--test-->
 
-<!--CASE STUDY: TRAPHOLT-->
+<!--CASE STUDY: Fantasy Festival-->
 <div class="container" id="projects"> 
   <hr>
- <header class="text-center m-3">CASE STUDY: TRAPHOLT REBRANDING</header>
+ <header class="text-center m-3">CASE STUDY: FANTASY FESTIVAL</header>
  <hr>
 </div>
     <div class="container trapholt-case">
@@ -252,7 +252,7 @@ data-bs-slide="next"
 <div class="row project-overview rounded">
    <div class="col-6">
   <p> <strong>DURATION:</strong> <span class="duration"><?php echo $trDuration ?></span> </p>
-    <p> <strong>PERIOD:</strong> <span class="period"><?php echo $trPeriod ?></span> </p>
+    <p> <strong>PERIOD:</strong> <span class="period">4 weeks</span> </p>
 
     <p> <strong>TEAM:</strong> <span class="team"><?php echo $trTeam ?></span> </p>
       <p> <strong>MY ROLE:</strong> <span class="role"><?php echo $trRole ?></span> </p>
