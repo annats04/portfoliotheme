@@ -88,7 +88,7 @@ $jlSolution4 = get_field ("jl_soluttion_4");
 <?php echo $name; ?>
     </div>
     <div class="title">
-       test test
+    
     Multimedia Designer based in Denmark
     </div>
 <div class="row link-buttons">
@@ -449,7 +449,7 @@ data-bs-slide="next"
     <div class="col-6">
     <div>
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"><?php echo $jlSolution1 ?> </p>
+<p class="inline-text"><?php echo $trSolution1 ?> </p>
 </div> 
 <div>
 <i class="fa-solid fa-chevron-right"></i>
