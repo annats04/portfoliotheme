@@ -154,12 +154,12 @@ $jlSolution4 = get_field ("jl_soluttion_4");
 <!--PROJCTES-->
 
 
-<!--test-->
+<!--test FANTASY FESTIVAL-->
 
 
 <div class="container" id="projects"> 
   <hr>
- <header class="text-center m-3">CASE STUDY: TRAPHOLT REBRANDING</header>
+ <header class="text-center m-3">CASE STUDY: Fantasy Festival</header>
  <hr>
 </div>
     <div class="container trapholt-case">
@@ -248,12 +248,12 @@ data-bs-slide="next"
 <div class="col-md-6">
 <div class="row project-overview rounded">
    <div class="col-6">
-  <p> <strong>DURATION:</strong> <span class="duration"><?php echo $trDuration ?></span> </p>
-    <p> <strong>PERIOD:</strong> <span class="period"><?php echo $trPeriod ?></span> </p>
+  <p> <strong>DURATION:</strong> <span class="duration">4 weeks </span> </p>
+    <p> <strong>PERIOD:</strong> <span class="period">May - June 2024</span> </p>
 
-    <p> <strong>TEAM:</strong> <span class="team"><?php echo $trTeam ?></span> </p>
-      <p> <strong>MY ROLE:</strong> <span class="role"><?php echo $trRole ?></span> </p>
-          <p> <strong>MY CONTRIBUTION:</strong> <span class="contribution"><?php echo $trContribution ?> </span> </p>
+    <p> <strong>TEAM:</strong> <span class="team">4 team members</span> </p>
+      <p> <strong>MY ROLE:</strong> <span class="role">Graphic Designer and Brand Strategist</span> </p>
+          <p> <strong>MY CONTRIBUTION:</strong> <span class="contribution">brand design, strategy, concept design, UX Research, graphic design </span> </p>
 
            
     
@@ -262,11 +262,11 @@ data-bs-slide="next"
 
    </div>
     <div class="col-6">
- <p> <strong>METHODOLOGY:</strong> <span class="methodology"><?php echo $trMethodology ?></span> </p>
+ <p> <strong>METHODOLOGY:</strong> <span class="methodology"> brand audit, brand identity research, UX research </span> </p>
 
-            <p> <strong>METHODS:</strong> <span class="methods"> <?php echo $trMethods ?> </span> </p>
+            <p> <strong>METHODS:</strong> <span class="methods"> quantitative survey, qualitative interviws, UX testing, user personas, fieldwork, competitors analysis, moodboards </span> </p>
 
-     <p> <strong>TOOLS:</strong> <span class="tools"><?php echo $trTools ?></span> </p>
+     <p> <strong>TOOLS:</strong> <span class="tools">Photoshop, Illustrator, InDesign, Figma, After Effects, HTML,  CSS, Github, Miro, Milanote</span> </p>
 
 
 
