@@ -157,6 +157,170 @@ $jlSolution4 = get_field ("jl_soluttion_4");
 <!--test-->
 
 
+<div class="container" id="projects"> 
+  <hr>
+ <header class="text-center m-3">CASE STUDY: TRAPHOLT REBRANDING</header>
+ <hr>
+</div>
+    <div class="container trapholt-case">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+<!--NEW carousel-->
+<div id="trapholtcarousel"
+class="carousel slide"
+data-bs-interval="5000"
+data-bs-ride="carousel"
+>
+    <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+<img src="<?php echo $trapholtLaptop["url"];?>"
+class="d-block img-fluid"
+alt="trapholt website on laptop screen">
+    </div>
+    <div class="carousel-item">
+<img src="<?php echo $trapholtPhone["url"];?>"
+class="d-block img-fluid"
+alt="trapholt on phone">
+    </div>
+    <div class="carousel-item">
+<img src="<?php echo $trapholtTablet["url"];?>"
+class="d-block"
+alt="tablet for-families">
+    </div>
+      <div class="carousel-item">
+<img src="<?php echo $trapholtBus["url"];?>"
+class="d-block"
+alt="nanna ditzel poster">
+    </div>
+      <div class="carousel-item">
+<img src="<?php echo $trapholtPoster["url"];?>"
+class="d-block"
+alt="main-poster">
+    </div>
+      <div class="carousel-item">
+<img src="<?php echo $trapholtAW["url"];?>"
+class="d-block"
+alt="artworkshops poster">
+    </div>
+      <div class="carousel-item">
+<img src="<?php echo $screenPoster["url"];?>"
+class="d-block"
+alt="screen poster for family activities">
+    </div>
+     <div class="carousel-item">
+<img src="<?php echo $treasureHunt["url"];?>"
+class="d-block"
+alt="treasure hunt assignment sheet">
+    </div>
+    <div class="carousel-item">
+<img src="<?php echo $trapholtChristmas["url"];?>"
+class="d-block"
+alt="christmas carol poster">
+    </div>
+     <div class="carousel-item">
+<img src="<?php echo $trapholtBag["url"];?>"
+class="d-block"
+alt="trapholt tote bag">
+    </div>
+</div>
+<button class="carousel-control-prev" 
+type="button"
+data-bs-target="#trapholtcarousel"
+data-bs-slide="prev"
+>
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next" 
+type="button"
+data-bs-target="#trapholtcarousel"
+data-bs-slide="next"
+>
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+
+
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="row project-overview rounded">
+   <div class="col-6">
+  <p> <strong>DURATION:</strong> <span class="duration"><?php echo $trDuration ?></span> </p>
+    <p> <strong>PERIOD:</strong> <span class="period"><?php echo $trPeriod ?></span> </p>
+
+    <p> <strong>TEAM:</strong> <span class="team"><?php echo $trTeam ?></span> </p>
+      <p> <strong>MY ROLE:</strong> <span class="role"><?php echo $trRole ?></span> </p>
+          <p> <strong>MY CONTRIBUTION:</strong> <span class="contribution"><?php echo $trContribution ?> </span> </p>
+
+           
+    
+
+
+
+   </div>
+    <div class="col-6">
+ <p> <strong>METHODOLOGY:</strong> <span class="methodology"><?php echo $trMethodology ?></span> </p>
+
+            <p> <strong>METHODS:</strong> <span class="methods"> <?php echo $trMethods ?> </span> </p>
+
+     <p> <strong>TOOLS:</strong> <span class="tools"><?php echo $trTools ?></span> </p>
+
+
+
+   </div>
+</div>
+<div class="row trapholt-description">
+<p>
+    <strong>CREATIVE BRIEF:</strong> 
+    <span class="creative-brief">
+<?php echo $trBrief ?>
+</span> 
+</p> 
+<p>
+    <strong>PROBLEM:</strong> 
+    <span class="problem">
+<?php echo $trProblem ?>
+</p>
+<p><strong>SOLUTION:</strong></p>
+
+<div class="row trapholt-solution">
+    <div class="col-4">
+     
+<i class="fa-solid fa-chevron-right"></i>
+<p class="inline-text"><?php echo $trSolution1 ?>
+ </p>
+
+</div>
+<div class="col-4">
+     
+<i class="fa-solid fa-chevron-right"></i>
+<p class="inline-text"> <?php echo $trSolution2 ?> </p>
+
+</div>
+<div class="col-4">
+     
+<i class="fa-solid fa-chevron-right"></i>
+<p class="inline-text"><?php echo $trSolution2 ?> </p>
+
+</div>
+
+</div>
+
+</div>
+<div class="mx-auto link-to-website">
+              <a
+                href="<?php echo $trLink ?>"
+                target="_blank">
+        <img src="<?php echo $arrow['url']; ?>" alt="" width="11"> VISIT WEBSITE</a>
+            </div>
+
+</div>
+        </div>
+    </div>
+        
 
 
 
