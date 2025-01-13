@@ -71,6 +71,17 @@ $jlSolution2 = get_field ("jl_soluttion_2");
 $jlSolution3 = get_field ("jl_soluttion_3");
 $jlSolution4 = get_field ("jl_soluttion_4");
 
+$FFmainposter = get_field("mainposter");
+$FFsecondposter = get_field("secondposter");
+$FFthirdposter = get_field("thirdposter");
+$FFflyer1= get_field("flyer1");
+$FFflyer2 = get_field("flyer2");
+$FFmockup1 = get_field("mockup1");
+$FFmockup2 = get_field("mockup2");
+$FFmockup3 = get_field("mockup3");
+$FFmockup4= get_field("mockup4");
+
+
 
 ?>
 
@@ -173,42 +184,42 @@ data-bs-ride="carousel"
 >
     <div class="carousel-inner rounded">
         <div class="carousel-item active">
-<img src="<?php echo $trapholtLaptop["url"];?>"
+<img src="<?php echo $FFmainposter["url"];?>"
 class="d-block img-fluid"
 alt="trapholt website on laptop screen">
     </div>
     <div class="carousel-item">
-<img src="<?php echo $trapholtPhone["url"];?>"
+<img src="<?php echo $FFsecondposter["url"];?>"
 class="d-block img-fluid"
 alt="trapholt on phone">
     </div>
     <div class="carousel-item">
-<img src="<?php echo $trapholtTablet["url"];?>"
+<img src="<?php echo $FFthirdposter["url"];?>"
 class="d-block"
 alt="tablet for-families">
     </div>
       <div class="carousel-item">
-<img src="<?php echo $trapholtBus["url"];?>"
+<img src="<?php echo $FFmockup1["url"];?>"
 class="d-block"
 alt="nanna ditzel poster">
     </div>
       <div class="carousel-item">
-<img src="<?php echo $trapholtPoster["url"];?>"
+<img src="<?php echo $FFflyer1["url"];?>"
 class="d-block"
 alt="main-poster">
     </div>
       <div class="carousel-item">
-<img src="<?php echo $trapholtAW["url"];?>"
+<img src="<?php echo $FFflyer2["url"];?>"
 class="d-block"
 alt="artworkshops poster">
     </div>
       <div class="carousel-item">
-<img src="<?php echo $screenPoster["url"];?>"
+<img src="<?php echo $FFmockup2["url"];?>"
 class="d-block"
 alt="screen poster for family activities">
     </div>
      <div class="carousel-item">
-<img src="<?php echo $treasureHunt["url"];?>"
+<img src="<?php echo $FFmockup3["url"];?>"
 class="d-block"
 alt="treasure hunt assignment sheet">
     </div>
