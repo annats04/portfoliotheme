@@ -177,7 +177,7 @@ $FFmockup4= get_field("mockup4");
         <div class="row justify-content-center">
             <div class="col-md-6">
 <!--NEW carousel-->
-<div id="trapholtcarousel"
+<div id="fantasycarousel"
 class="carousel slide"
 data-bs-interval="5000"
 data-bs-ride="carousel"
@@ -186,42 +186,42 @@ data-bs-ride="carousel"
         <div class="carousel-item active">
 <img src="<?php echo $FFmainposter["url"];?>"
 class="d-block img-fluid"
-alt="trapholt website on laptop screen">
+alt="main Fantasy Festival Poster">
     </div>
     <div class="carousel-item">
 <img src="<?php echo $FFsecondposter["url"];?>"
 class="d-block img-fluid"
-alt="trapholt on phone">
+alt="secondary fantasy festival poster">
     </div>
     <div class="carousel-item">
 <img src="<?php echo $FFthirdposter["url"];?>"
 class="d-block"
-alt="tablet for-families">
+alt="third fantasy festival poster">
     </div>
       <div class="carousel-item">
 <img src="<?php echo $FFmockup1["url"];?>"
 class="d-block"
-alt="nanna ditzel poster">
+alt="fantasy festival poster carousel">
     </div>
       <div class="carousel-item">
 <img src="<?php echo $FFflyer1["url"];?>"
 class="d-block"
-alt="main-poster">
+alt="fantasy festival front side flyer">
     </div>
       <div class="carousel-item">
 <img src="<?php echo $FFflyer2["url"];?>"
 class="d-block"
-alt="artworkshops poster">
+alt="fantasy festival backside flyer">
     </div>
       <div class="carousel-item">
 <img src="<?php echo $FFmockup2["url"];?>"
 class="d-block"
-alt="screen poster for family activities">
+alt="fantasy festival flyer mockup">
     </div>
      <div class="carousel-item">
 <img src="<?php echo $FFmockup3["url"];?>"
 class="d-block"
-alt="treasure hunt assignment sheet">
+alt="fantasy festival mockup">
     </div>
     <div class="carousel-item">
 <img src="<?php echo $trapholtChristmas["url"];?>"
@@ -236,7 +236,7 @@ alt="trapholt tote bag">
 </div>
 <button class="carousel-control-prev" 
 type="button"
-data-bs-target="#trapholtcarousel"
+data-bs-target="#fantasycarousel"
 data-bs-slide="prev"
 >
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -245,7 +245,7 @@ data-bs-slide="prev"
 
 <button class="carousel-control-next" 
 type="button"
-data-bs-target="#trapholtcarousel"
+data-bs-target="#fantasycarousel"
 data-bs-slide="next"
 >
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -263,7 +263,7 @@ data-bs-slide="next"
     <p> <strong>PERIOD:</strong> <span class="period">May - June 2024</span> </p>
 
     <p> <strong>TEAM:</strong> <span class="team">4 team members</span> </p>
-      <p> <strong>MY ROLE:</strong> <span class="role">Graphic Designer and Brand Strategist</span> </p>
+      <p> <strong>MY ROLE:</strong> <span class="role">Graphic Designer, Brand Strategist and UX Researcher</span> </p>
           <p> <strong>MY CONTRIBUTION:</strong> <span class="contribution">brand design, strategy, concept design, UX Research, graphic design </span> </p>
 
            
@@ -287,13 +287,13 @@ data-bs-slide="next"
 <p>
     <strong>CREATIVE BRIEF:</strong> 
     <span class="creative-brief">
-<?php echo $trBrief ?>
+    Develop a distinct visual identity for Fantasy Quest, a special event celebrating the 10th anniversary of the Fantasy Festival, ensuring clarity between the event and the main festival.
 </span> 
 </p> 
 <p>
     <strong>PROBLEM:</strong> 
     <span class="problem">
-<?php echo $trProblem ?>
+    The Fantasy Quest, though designed as a premium event, shared the same brand identity as the main Fantasy Festival. This overlap led to unclear messaging, confusion about the need for separate tickets, and lack of a strong, independent presence for the Quest.
 </p>
 <p><strong>SOLUTION:</strong></p>
 
@@ -301,20 +301,21 @@ data-bs-slide="next"
     <div class="col-4">
      
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"><?php echo $trSolution1 ?>
+<p class="inline-text">Developed a unique branding style for Fantasy Quest that highlights its special anniversary theme while differentiating it from the main festival.
  </p>
 
 </div>
 <div class="col-4">
      
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"> <?php echo $trSolution2 ?> </p>
+<p class="inline-text"> Incorporated celebratory design elements and anniversary-specific visuals to create a strong connection to the 10th milestone. </p>
 
 </div>
 <div class="col-4">
      
 <i class="fa-solid fa-chevron-right"></i>
-<p class="inline-text"><?php echo $trSolution2 ?> </p>
+<p class="inline-text">Ensured that the new event’s branding ties back to the main festival’s core values without losing its distinctiveness.
+</p>
 
 </div>
 

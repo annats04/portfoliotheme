@@ -235,11 +235,9 @@ header {
 }
 
 .carousel-item img {
-  width: 100%;
-  /* Make sure the images inside the carousel take the full width */
-  height: 620px;
-  object-fit: cover;
-  /* Maintain aspect ratio */
+  width: 100%;  /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Prevent images from being distorted */
 }
 .trapholt-case {
   margin-bottom: 30px;
