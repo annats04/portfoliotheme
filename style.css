@@ -234,23 +234,12 @@ header {
   border: 1px solid #ff119e;
 }
 
-.#fantasycarousel {
-  height: 400px; /* Adjust this value to set your desired height */
-}
-
-.carousel-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
 .carousel-item img {
-  object-fit: contain; /* Ensure the image fits within the container without cropping */
-  width: auto;
-  height: 100%; /* Fill the height of the container */
-  object-position: center; /* Center the image */
+  width: 100%;  /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Prevent images from being distorted */
 }
+
 
 .trapholt-case {
   margin-bottom: 30px;
