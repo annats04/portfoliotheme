@@ -236,7 +236,7 @@ header {
 
 .carousel-item img {
   width: 100%;  /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
+  height: 600px; /* Maintain aspect ratio */
   object-fit: contain; /* Prevent images from being distorted */
 }
 
