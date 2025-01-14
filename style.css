@@ -234,11 +234,21 @@ header {
   border: 1px solid #ff119e;
 }
 
-.carousel-item img {
-  width: 100%;  /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Prevent images from being distorted */
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Or specify a fixed height */
 }
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Set a maximum height for consistency */
+  object-position: center; /* Ensures the image is centered */
+}
+
 .trapholt-case {
   margin-bottom: 30px;
 }
