@@ -238,16 +238,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; /* Or specify a fixed height */
+  height: 100%; /* Or a fixed height */
 }
 
 .carousel-item img {
-  object-fit: cover;
+  object-fit: contain; /* Ensures the full image is displayed */
   width: 100%;
-  height: auto;
-  max-height: 400px; /* Set a maximum height for consistency */
-  object-position: center; /* Ensures the image is centered */
+  height: 100%;
+  max-height: 400px; /* Set a maximum height to maintain consistency */
+  object-position: center; /* Keeps the focus on the center of the image */
 }
+
 
 .trapholt-case {
   margin-bottom: 30px;
