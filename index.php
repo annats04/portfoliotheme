@@ -223,16 +223,7 @@ alt="fantasy festival flyer mockup">
 class="d-block"
 alt="fantasy festival mockup">
     </div>
-    <div class="carousel-item">
-<img src="<?php echo $trapholtChristmas["url"];?>"
-class="d-block"
-alt="christmas carol poster">
-    </div>
-     <div class="carousel-item">
-<img src="<?php echo $trapholtBag["url"];?>"
-class="d-block"
-alt="trapholt tote bag">
-    </div>
+    
 </div>
 <button class="carousel-control-prev" 
 type="button"
@@ -324,7 +315,7 @@ data-bs-slide="next"
 </div>
 <div class="mx-auto link-to-website">
               <a
-                href="<?php echo $trLink ?>"
+                href="https://fantasy-quest-d735e.web.app/"
                 target="_blank">
         <img src="<?php echo $arrow['url']; ?>" alt="" width="11"> VISIT WEBSITE</a>
             </div>
